@@ -30,4 +30,4 @@ Since this utility is written entirely in native C#, you don't even need Visual 
 3. Run the following command:
 
 ```powershell
-& "$env:SystemRoot\Microsoft.NET\Framework64\v4.0.30319\csc.exe" /target:winexe /win32icon:BetterShortcuts.ico /r:System.Windows.Forms.dll /r:System.Drawing.dll /out:BetterShortcuts.exe ArrowPatcher.cs
+& "$env:SystemRoot\Microsoft.NET\Framework64\v4.0.30319\csc.exe" /target:winexe /win32icon:BetterShortcuts.ico /r:System.Windows.Forms.dll /r:System.Drawing.dll /out:BetterShortcuts.exe BetterShortcuts.cs
